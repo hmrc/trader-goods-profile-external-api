@@ -1,0 +1,2 @@
+GET        /api/definition                 uk.gov.hmrc.tradergoodsprofileexternalapi.controllers.DocumentationController.definition()
+GET        /api/conf/:version/*file        uk.gov.hmrc.tradergoodsprofileexternalapi.controllers.DocumentationController.specification(version, file)
